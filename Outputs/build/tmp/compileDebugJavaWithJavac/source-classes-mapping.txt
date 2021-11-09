@@ -1,0 +1,7 @@
+com/tareas/juegoleccionappinventor/BuildConfig.java
+ com.tareas.juegoleccionappinventor.BuildConfig
+com/tareas/juegoleccionappinventor/MainActivity.java
+ com.tareas.juegoleccionappinventor.MainActivity
+ com.tareas.juegoleccionappinventor.MainActivity$1
+com/tareas/juegoleccionappinventor/Juego.java
+ com.tareas.juegoleccionappinventor.Juego
