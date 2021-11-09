@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2C4251">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="OVNI"
+        android:textSize="75sp"
+        android:textColor="#C1C1C1"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Wallop"
+        android:textColor="#C1C1C1"
+        android:textSize="40sp"
+        android:layout_marginTop="110sp"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/PlayButton"
+        android:layout_width="200sp"
+        android:layout_height="65sp"
+        android:background="#D16666"
+        android:layout_marginTop="495sp"
+        android:layout_centerHorizontal="true"
+        android:text="Jugar"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@drawable/ovni"
+        android:layout_marginTop="175sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Desarrollado por mi"
+        android:textColor="@color/white"
+        android:textAlignment="textEnd"
+        android:paddingHorizontal="10sp"
+        android:textSize="11sp"
+        android:paddingVertical="2sp"/>
+
+</RelativeLayout>
