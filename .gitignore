@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/build/intermediates/
+/app/build/generated/
+/app/build/tmp/
